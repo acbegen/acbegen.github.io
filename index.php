@@ -147,7 +147,7 @@ ChangeTitle('Ali C. Begen\'s Personal Website');
               <li><span class="fa-li"><i class="fas fa-microphone"></i></span>Server/Client Cooperation in Low-Latency Live Streaming<br>
                 IEEE Communications Society Distinguished Speaker Program - Feb. 2023
                 <ul>
-                  <li>Feb. 24th: University of Southern California (<a target="_blank">link</a>)</li>
+                  <li>Feb. 24th: University of Southern California</li>
                   <li>Feb. 27th: IEEE San Diego Section (<a href="https://events.vtools.ieee.org/m/349513" target="_blank">link</a>)</li>
                 </ul>
               </li>
@@ -205,7 +205,7 @@ ChangeTitle('Ali C. Begen\'s Personal Website');
             <h2>Recent News</h2>
             <span class="section-divider"></span>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-bullhorn"></i></span>ACM SIGMM Test of Time Paper Award in the category of multimedia systems-networking</li>
+              <li><span class="fa-li"><i class="fas fa-bullhorn"></i></span>ACM SIGMM Test of Time Paper Award in the category of multimedia systems-networking (<a href="http://sigmm.org/news/acm-sigmm-test-time-paper-award-2022" target="_blank">link</a>)</li>
               <li><span class="fa-li"><i class="fas fa-bullhorn"></i></span>Emmy® Award for Technology and Engineering for standardization of HTTP encapsulated protocols (<a href="https://theemmys.tv/tech-73rd-award-recipients/" target="_blank">NATAS press release</a>, <a href="https://www.iso.org/contents/news/2022/04/record-breaking-mpeg-takes-two-e.html" target="_blank">ISO press release</a>, <a href="https://www.mpeg.org/138th-meeting-of-mpeg/" target="_blank">MPEG press release</a>, my posts (<a href="https://www.linkedin.com/pulse/years-research-development-teamwork-have-paid-off-ali-c-begen/" target="_blank">EN</a>/<a href="https://tinyurl.com/begen-emmy-turkce" target="_blank">TR</a>), OzU news (<a href="https://www.ozyegin.edu.tr/en/announcements/21159" target="_blank">EN</a>/<a href="https://www.ozyegin.edu.tr/tr/duyurular/21158" target="_blank">TR</a>), Bilkent news (<a href="https://ee.bilkent.edu.tr/en/index.php/all-news/dr-ali-c-begen-2001-eee-graduate-received-an-emmy-award-in-technology-and-engineering/" target="_blank">EN</a>/<a href="https://ee.bilkent.edu.tr/tr/index.php/butun-haberler/2001-eee-mezunlarimizdan-dr-ali-c-begen-teknoloji-ve-muhendislik-alaninda-emmy-odulu-aldi/" target="_blank">TR</a>))</li>
               <li><span class="fa-li"><i class="fas fa-bullhorn"></i></span>Winner in YouTube's grand challenge on "Detecting Cheapfakes"</li>
               <li><span class="fa-li"><i class="fas fa-bullhorn"></i></span>My students and I received four awards at ACM MMSys 2021 and one of this year's dash.js Contributor Awards (<a href="awards.php" target="_blank">link</a>)</li>

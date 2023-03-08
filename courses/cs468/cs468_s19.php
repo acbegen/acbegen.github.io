@@ -6,8 +6,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link href="../../css/style.css" type="text/css" rel="stylesheet">
 <title>CS 468/568 Contemporary Topics in Networking - Spring 2019 (OzU Section)</title>
-<?php include_once("../../common/analyticstracking.php") ?>
-<?php include_once("../../common/analyticstracking_old.php") ?>
 </head>
 
 <body>

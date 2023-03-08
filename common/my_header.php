@@ -42,7 +42,7 @@ function ChangeTitle( $new_title ) {
 <link href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css" rel="stylesheet">
 
 <!-- Main Stylesheet File -->
-<link href="css/style.css?<?php echo filectime('css/style.css');?>" rel="stylesheet">
+<link href="css/style.css?<?php echo filectime('../css/style.css');?>" rel="stylesheet">
 </head>
 
 <body>

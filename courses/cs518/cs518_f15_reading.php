@@ -7,8 +7,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link href="../../css/style.css" type="text/css" rel="stylesheet">
 <title>CS 518 Networked Entertainment - Fall 2015</title>
-<?php include_once("../../common/analyticstracking.php") ?>
-<?php include_once("../../common/analyticstracking_old.php") ?>
 </head>
 
 <body>

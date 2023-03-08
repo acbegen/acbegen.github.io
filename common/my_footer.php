@@ -32,5 +32,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.10.0/jquery.hoverIntent.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.10/js/superfish.min.js"></script> 
-<script src="js/main.js?<?php echo filectime('js/main.js');?>"></script>
+<script src="js/main.js?<?php echo filectime('../js/main.js');?>"></script>
 </body></html>

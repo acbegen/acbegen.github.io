@@ -10,8 +10,6 @@
 $myHeader = "CS 395 Multimedia Systems and Applications - Spring 2017";
 echo "<title>$myHeader</title>";
 ?>
-        <?php include_once("../../common/analyticstracking.php") ?>
-        <?php include_once("../../common/analyticstracking_old.php") ?>
 </head>
 
 <body>
