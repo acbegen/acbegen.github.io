@@ -2,30 +2,34 @@ import os
 import glob
 import shutil
 
-STATIC_FOLDERS = ["courses", "css", "files", "img", "js"]
-PHP_FILES = "*.php"
+EXCLUDE_DIRS = [".github", ".git", "build", "*.py"]
 BUILD_DIR = "build"
 
 # Create build directory
 if os.path.exists(BUILD_DIR):
     shutil.rmtree(BUILD_DIR)
-os.mkdir(BUILD_DIR)
 
-# Copy static folders
-for folder in STATIC_FOLDERS:
-    shutil.copytree(folder, os.path.join(BUILD_DIR, folder))
+# Copy all files
+shutil.copytree(".", BUILD_DIR, ignore=shutil.ignore_patterns(*EXCLUDE_DIRS))
 
-# Copy PHP files
-for php_file in glob.glob(PHP_FILES):
-    # change the extension to .html
-    html_file = os.path.splitext(php_file)[0] + ".html"
-    os.system(f"php {php_file} > {BUILD_DIR}/{html_file}")
+# Render all PHP files, walk
+script_dir = os.getcwd()
+for root, dirs, files in os.walk(BUILD_DIR):
+    os.chdir(root)
+    for file in files:
+        if file.endswith(".php"):
+            # Render PHP file
+            os.system(f"php {file} > {file[:-4]}.html")
 
-# Rewrite links in HTML files
-for html_file in glob.glob(os.path.join(BUILD_DIR, "*.html")):
-    with open(html_file, "r") as f:
-        content = f.read()
-    # Change links to other HTML files
-    content = content.replace(".php", ".html")
-    with open(html_file, "w") as f:
-        f.write(content)
+            # Rewrite links
+            with open(f"{file[:-4]}.html", "r") as f:
+                content = f.read()
+
+            content = content.replace(".php", ".html")
+
+            with open(f"{file[:-4]}.html", "w") as f:
+                f.write(content)
+
+            # Remove PHP file
+            os.remove(file)
+    os.chdir(script_dir)
